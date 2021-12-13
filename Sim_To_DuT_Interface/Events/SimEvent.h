@@ -29,6 +29,7 @@
 #include <string>
 #include <iostream>
 #include <boost/variant.hpp>
+#include <chrono>
 
 namespace sim_interface {
     /**
@@ -61,7 +62,7 @@ namespace sim_interface {
         /**
          * Time when the event was created.
          */
-        std::time_t current;
+        std::string current;
         /**
          * Origin of the event.
          */
